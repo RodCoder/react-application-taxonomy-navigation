@@ -1,0 +1,73 @@
+.app {
+    .top {
+      height:40px;
+      text-align:left;
+      line-height:2.5;
+      font-weight:bold;
+      display: flex;
+      align-items: left;
+      justify-content: left;
+    }
+  
+    .bottom, a, a:visited, a:hover {
+      height:40px;
+      text-align:center;
+      line-height:2.5;
+      font-weight:bold;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .commandBar {
+      width: 100%;
+    }
+
+    a {
+      text-decoration: none;
+      color: white;
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+}
+
+// Mega Menu
+.reactTabs {
+
+  .tabList {
+    margin: 0px;
+    list-style: none;
+    display: flex;
+
+    .tab {
+      float: left;
+      padding: 10px;  
+
+      :hover {
+        cursor: pointer;
+      }
+    }
+  }
+
+  .tabPanel{
+    display: flex;
+  }
+
+  .tabPanelSelected{
+    display: flex; //repeating just to show after compiling
+  }
+
+  .tabPanelOuter {
+    background-color: lightgray;
+    overflow: hidden;
+    -webkit-transition: height 0.3s linear, opacity 0.3s ease;
+    -moz-transition: height 0.3s linear, opacity 0.3s ease;
+    -o-transition: height 0.3s linear, opacity 0.3s ease;
+    transition: height 0.3s linear, opacity 0.3s ease;
+  }
+}
+
+
+
+
+
